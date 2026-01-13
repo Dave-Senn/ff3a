@@ -31,45 +31,6 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/MotionPathPlugin.min.js"></script>
     <script src="index.js"></script>
-
-    <script>
-        /*
-        const fieldSize = 350; // 7m * 50px/m
-        const corners = [
-            { x: 0, y: 0 },                 // A
-            { x: fieldSize, y: 0 },         // B
-            { x: fieldSize, y: fieldSize }, // C
-            { x: 0, y: fieldSize }          // D
-        ];
-        const players = [
-            { el: document.getElementById('player1'), start: 0 },
-            { el: document.getElementById('player2'), start: 1 },
-            { el: document.getElementById('player3'), start: 2 },
-            { el: document.getElementById('player4'), start: 3 },
-        ];
-        players.forEach(player => {
-            const path = [
-                corners[player.start],
-                corners[(player.start + 1) % 4],
-                corners[(player.start + 2) % 4],
-                corners[(player.start + 3) % 4],
-                corners[player.start], // loop back
-            ];
-
-            // Create GSAP timeline for each player
-            gsap.to(player.el, {
-                motionPath: {
-                    path: path.map(p => ({ x: p.x, y: p.y })),
-                    curviness: 0,
-                    autoRotate: false
-                },
-                duration: 8, // 2s per side
-                repeat: -1,
-                ease: "linear"
-            });
-        });
-        */
-    </script>
 </body>
 
 </html>

@@ -4,8 +4,6 @@
     /*--fieldDim: calc(var(--pxPerM) * var(--fieldLength));*/
     --fieldBorder: 2px;
 
-    --fieldDim: 700px;
-
     --poleDim: calc(var(--pxPerM) / 100 * 20);
     --playerDim: calc(var(--pxPerM) / 100 * 50);
     --ballDim: calc(var(--pxPerM) / 100 * 20);
